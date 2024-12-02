@@ -1,0 +1,153 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Contenido principal */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.description {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    width: 300px;
+    background-color: #555;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 60px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h4 {
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #ff6600;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #aaa;
+}

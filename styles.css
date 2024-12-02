@@ -1,0 +1,165 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Encabezado superior */
+.top-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    color: #ff6600;
+    border-bottom: 2px solid #505050;
+}
+
+.top-header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.top-header p {
+    font-size: 16px;
+    color: #cccccc;
+}
+
+/* Encabezado principal */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2a2a2a;
+}
+
+.main-header .logo img {
+    width: 50px;
+}
+
+.main-header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.main-header nav a:hover {
+    background-color: #505050;
+}
+
+.main-header nav .registrar {
+    background-color: #ff6600;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.image-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content h2 {
+    font-size: 36px;
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.content p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333333;
+    color: #cccccc;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff6600;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaaaaa;
+}

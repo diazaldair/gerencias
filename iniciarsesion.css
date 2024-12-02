@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container {
+    width: 400px;
+    background: url("background.png") no-repeat center center/cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    width: 80px;
+    height: auto;
+}
+
+header nav a {
+    color: #c5c6c7;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: 2px solid #c5c6c7;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: #c5c6c7;
+    color: #0d1b2a;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main form label {
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #c5c6c7;
+}
+
+main form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #c5c6c7;
+    border-radius: 5px;
+    background-color: #1f2937;
+    color: #c5c6c7;
+}
+
+main form input::placeholder {
+    color: #c5c6c7;
+}
+
+main form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c5c6c7;
+    border: 2px solid #c5c6c7;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #0d1b2a;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main form button:hover {
+    background-color: #f2f2f2;
+}
